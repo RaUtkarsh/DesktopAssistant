@@ -117,7 +117,7 @@ def run_mikasa():
         talk(pyjokes.get_joke())
 
     elif 'news' in command:
-        webbrowser.open_new_tab("https://timesofindia.indiatimes.com/city/mangalore")
+        webbrowser.open_new_tab("https://timesofindia.indiatimes.com/")
         talk('Here are some headlines from the Times of India')
 
     elif 'open netflix' in command:
